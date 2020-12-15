@@ -13,8 +13,8 @@ public class ParameterizedWithThisOp {
     ParameterizedWithThisOp(int a , double d, char c, String str )
     {
         this.a = a;
-        this.d =d;
-        this.c =c;
+        this.d = d;
+        this.c = c;
         this.str = str;
     }
 
