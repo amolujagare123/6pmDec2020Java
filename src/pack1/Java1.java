@@ -4,7 +4,7 @@ public class Java1 {
 
     public int a1;
     public double d1;
-    private char c1;
+    protected char c1;
     String str1;
 
 
