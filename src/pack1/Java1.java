@@ -5,10 +5,10 @@ public class Java1 {
     public int a1;
     public double d1;
     protected char c1;
-    String str1;
+    public String str1;
 
 
-    void display1()
+    public void display1()
     {
         System.out.println("a=" + a1);
         System.out.println("d=" + d1);
