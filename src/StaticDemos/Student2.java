@@ -11,6 +11,12 @@ public class Student2 {
         System.out.println("name="+name);
         System.out.println("College="+college);
     }
+
+    static void printCollege()
+    {
+        System.out.println("College="+college);
+    }
+
     public static void main(String[] args) {
 
         System.out.println("college using className="+Student2.college); // ITS
@@ -35,6 +41,10 @@ public class Student2 {
         st2.display(); // PICT
         st3.display(); // PICT
         System.out.println("college using className="+Student2.college); // PICT
+
+        st2.printCollege();
+
+        Student2.printCollege(); // using class name
 
     }
 }
