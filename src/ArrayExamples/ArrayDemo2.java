@@ -1,5 +1,8 @@
 package ArrayExamples;
 
+
+import AbstractionDemo.MyInterface;
+
 public class ArrayDemo2 {
 
     public static void main(String[] args) {
@@ -18,6 +21,11 @@ public class ArrayDemo2 {
 
         for(int i=0; i<a.length ; i++)
             System.out.println(a[i]);
+
+
+       /* MyInterface ob = new ChildInterface();
+
+        ob.run();*/
 
     }
 }

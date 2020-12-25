@@ -1,8 +1,9 @@
 package AbstractionDemo;
+
 public abstract class BaseClass {
 
     abstract void start();
-    abstract  void run();
+    public abstract  void run();
 
     void display()
     {
@@ -17,7 +18,7 @@ class DerivedClass extends BaseClass
         System.out.println("start");
     }
 
-    void run()
+    public void run()
     {
         System.out.println("run");
     }
