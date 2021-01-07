@@ -7,7 +7,7 @@ public class VectorDemo2 {
 
     public static void main(String[] args) {
 
-        Vector<String> v = new Vector<>();
+        Vector<String> v = new Vector<>(8,5);
 
         System.out.println("capaicty="+v.capacity());// 10
         System.out.println("Size="+v.size());// 0
@@ -17,12 +17,11 @@ public class VectorDemo2 {
         v.add("komal");
         v.add("Shashin");
         v.add("amol");
-        v.add("valishali");
+        v.add("smita");
+        v.add("Tejashree");
+        v.add("komal");
+        v.add("Shashin");
         v.add("amol");
-        v.add("valishali");
-        v.add("amol");
-        v.add("valishali");
-        v.add("valishali");
 
         System.out.println("capaicty="+v.capacity());// 10
         System.out.println("Size="+v.size());// 11
