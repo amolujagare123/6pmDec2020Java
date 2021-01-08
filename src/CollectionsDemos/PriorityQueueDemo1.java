@@ -16,8 +16,8 @@ public class PriorityQueueDemo1 {
         pq.offer(24);
         pq.offer(14);
         pq.offer(54);
-        pq.offer("amol"); //
 
+       // pq.offer('4');
 
 
         System.out.println(pq);
